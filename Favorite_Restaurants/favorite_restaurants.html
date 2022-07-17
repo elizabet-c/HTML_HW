@@ -19,40 +19,108 @@
         </header>
 
         <h1>Welcome to my Favorite Restaurants Page</h1>
-        <h3>Below is a list of some of my favorite places to eat along with some additional
-            information about the food offered, location and price point. 
+        <h3>Below is a list of some of my favorite places to eat in order of most favorite to least along with some additional
+            information about the food offered price point. 
         </h3>
         <ol>
-            <li>True Food Kitchen</li>
+            <li>
+                <a href="https://www.truefoodkitchen.com/" style="text-decoration:none;"><b class="term">True Food Kitchen</b></a>
+            </li>
             <ul>
                 <li>Healthy American style dishes with a fresh twist</li>
                 <li>Favorite Menu Item: Turkey Burger</li>
                 <li>Price Point: $$</li>
             </ul>
-            <li>Kodo Sushi</li>
+            <li>
+                <a href="https://www.kodochandler.com/" style="text-decoration:none;"><b class="term">Kodo Sushi</b></a>
+            </li>
             <ul>
                 <li>Hole-in-the-wall spot known for their seared tuna specials</li>
                 <li>Favorite Menu Item: Kodo Roll</li>
                 <li>Price Point: $$</li>
             </ul>
-            <li>SumoMaya</li>
+            <li>
+                <a href="https://www.sumomaya.com/" style="text-decoration:none;"><b class="term">SumoMaya</b></a>
+            </li>
             <ul>
                 <li>Trendy Mexican-Asian Fusion with Tapas dining style</li>
                 <li>Favorite Menu Item: Tuna Tostada</li>
                 <li>Price Point: $$$</li>
             </ul>
-            <li>In N Out</li>
+            <li>
+                <a href="https://www.in-n-out.com/" style="text-decoration:none;"><b class="term">In N Out</b></a>
+            </li>
             <ul>
                 <li>We all know this one. Amazing fast-food burger joint.</li>
                 <li>Favorite Menu Item: Protein Style Cheeseburger with Onions and Pickles</li>
                 <li>Price Point: $</li>
             </ul>
-            <li>My Kitchen</li>
+            <li>
+                <a href="my_kitchen.html" style="text-decoration:none;"><b class="term">My Kitchen</b></a>
+            </li>
             <ul> 
                 <li>Mostly chaotic, but usually end up with something edible in the end</li>
                 <li>Favorite Menu Item: Over-Baked Tofu Stir-Fry</li>
                 <li>Price Point: $-$$$</li>
             </ul>
         </ol>
+
+        <h4>About Me</h4>
+        <table>
+            <tr>
+                <th>First Name</th>
+                <th>Home State</th>
+                <th>Favorite Food</th>
+            </tr>
+            <tr>
+                <td>Elizabet</td>
+                <td>Alaska</td>
+                <td>Burgers!</td>
+            </tr>
+        </table>
+        <h3>Want to Reach Me?</h3>
+        <h4>Enter your contact information below</h4>
+        <form>
+            <label for="name">Name: </label>
+            <input id="name" type="text" name="name"/> <br> <br>
+            <label for="email">E-Mail: </label>
+            <input id="email" type="text" name="email" placeholder="Enter email address"/> <br> <br>
+            <br>
+            <br>
+            <label for="comment">Comments:</label>
+            <textarea id="comment" name="comment" placeholder="Leave any comments here" rows="8"></textarea>
+            <br> <br> 
+        </form>
+        <h4>What type of content do you like?</h4>
+        <form>
+            <label for="recipes">Recipes</label>
+            <input type="checkbox" id="recipes" name="recipes">
+            <br>
+            <label for="restaurants">Restaurant Suggestions</label>
+            <input type="checkbox" id="restaurants" name="restaurants">
+            <br>
+            <label for="dogs">Dog Pictures</label>
+            <input type="checkbox" id="dogs" name="dogs">
+        </form>
+        
+        <form>
+            <label for ="type">How did you hear about this?</label>
+                <select id="type" name="type">
+                    <option value="beach">Friend</option>
+                    <option value="mountains">Social Media Ad</option>
+                    <option value="mountains">Website Ad</option>
+                    <option value="city">Other</option>
+                </select>
+            <br>
+            <input type="button" value="Submit">
+        </form>
+        <footer>
+            <h3>Foodie Life</h3>
+            <ul>
+                <li>Instagram</li>
+                <li>Twitter</li>
+                <li>Pinterest</li>
+            </ul>
+        </footer>
     </body>
 </html>
